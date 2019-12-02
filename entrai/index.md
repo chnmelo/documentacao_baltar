@@ -4,11 +4,11 @@ Documentação da API do sitema Entra Ai.
 
 ## RELAÇÕES
 
-* [Acesso ](./acesso)
-* [Controle](./controle)
-* [Local](./local)
-* [Pessoa](./pessoa)
-* [Sessão](./session)
-* [Tag](./tag)
-* [Usuario](./user)
+* [Acesso ](./acesso.md)
+* [Controle](./controle.md)
+* [Local](./local.md)
+* [Pessoa](./pessoa.md)
+* [Sessão](./session.md)
+* [Tag](./tag.md)
+* [Usuario](./user.md)
 

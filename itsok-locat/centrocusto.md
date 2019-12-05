@@ -15,3 +15,11 @@
 
 ## Requisições
 
+| tipo       | path                                                 | Descrição |
+| ---------- | ---------------------------------------------------- | --------- |
+| **GET**    | /api/centroCusto                                     |           |
+| **GET**    | /api/centroCusto/<span style="color:blue">:id</span> |           |
+| **POST**   | /api/centroCusto                                     |           |
+| **PUT**    | /api/centroCusto/<span style="color:blue">:id</span> |           |
+| **DELETE** | /api/centroCusto/<span style="color:blue">:id</span> |           |
+

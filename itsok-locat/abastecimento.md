@@ -25,3 +25,19 @@
 
 ## Requisições
 
+| tipo       | path                                                         | retorno |
+| ---------- | ------------------------------------------------------------ | ------- |
+| **GET**    | /api/abastecimento                                           |         |
+| **GET**    | /api/abastecimento/notify                                    |         |
+| **GET**    | /api/abastecimento/<span style="color:blue">:id</span>       |         |
+| **PUT**    | /api/abastecimento/<span style="color:blue">:id</span>       |         |
+| **PUT**    | /api/abastecimento/io/<span style="color:blue">:id</span>    |         |
+| **POST**   | /api/abastecimento                                           |         |
+| **POST**   | /api/abastecimento/justificar                                |         |
+| **DELETE** | /api/abastecimento/<span style="color:blue">:id</span>       |         |
+| **GET**    | /api/reviews/abastecimento/empresa/<span style="color:blue">:empresa_id</span>/<span style="color:blue">:data_inicial</span>/<span style="color:blue">:data_final</span> |         |
+| **GET**    | /api/reviews/abastecimento/empresa/<span style="color:blue">:empresa_id</span>/<span style="color:blue">:data_dia</span> |         |
+| **GET**    | /api/reviews/abastecimento/postoAbastecimento/<span style="color:blue">:posto_id</span>/<span style="color:blue">:data_inicial</span>/<span style="color:blue">:data_final</span> |         |
+| **GET**    | /api/reviews/abastecimento/equipamento/<span style="color:blue">:equipamento_id</span>/<span style="color:blue">:data_inicial</span>/<span style="color:blue">:data_final</span> |         |
+| **GET**    | /api/reviews/abastecimento/equipamento/<span style="color:blue">:equipamento_id</span>/<span style="color:blue">:data_inicial</span>/<span style="color:blue">:data_final</span> |         |
+

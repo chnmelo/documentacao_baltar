@@ -16,3 +16,18 @@
 | saida           | boolean      | Flag para equipamento ja saiu                                |
 | retorno         | boolean      | Flag para equipamento retorno, e finalização da liberação    |
 
+## Requisições
+
+| tipo       | path                                                     | retorno |
+| ---------- | -------------------------------------------------------- | ------- |
+| **GET**    | /api/acesso                                              |         |
+| **GET**    | /api/acesso/<span style="color:blue">:id</span>          |         |
+| **GET**    | /api/acontroleDash                                       |         |
+| **GET**    | /api/acesso/in/<span style="color:blue">:key</span>      |         |
+| **GET**    | /api/acesso/out/<span style="color:blue">:key</span>     |         |
+| **GET**    | /api/acesso/inTag/<span style="color:blue">:key</span>   |         |
+| **GET**    | /api/acesso/outTag/<span style="color:blue">:key</span>  |         |
+| **GET**    | /api/acesso/consult/<span style="color:blue">:key</span> |         |
+| **POST**   | /api/acesso                                              |         |
+| **DELETE** | /api/acesso/<span style="color:blue">:id</span>          |         |
+

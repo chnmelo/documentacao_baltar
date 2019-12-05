@@ -9,3 +9,13 @@
 
 ## Requisições 
 
+| tipo     | path                                                         | retorno |
+| -------- | ------------------------------------------------------------ | ------- |
+| **GET**  | /api/controle                                                |         |
+| **GET**  | /api/controle_disponiveis                                    |         |
+| **GET**  | /api/controle_fora                                           |         |
+| **GET**  | /api/controle/<span style="color:blue">:key</span>           |         |
+| **GET**  | /api/controle/equipamento/<span style="color:blue">:id</span> |         |
+| **POST** | /api/controle                                                |         |
+| **PUT**  | /api/controle/<span style="color:blue">:id</span>            |         |
+

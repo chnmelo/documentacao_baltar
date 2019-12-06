@@ -9,3 +9,10 @@
 
 ## Requisições 
 
+| tipo     | path                                                       | retorno |
+| -------- | ---------------------------------------------------------- | ------- |
+| **GET**  | /api/controleOperador                                      |         |
+| **GET**  | /api/controleOperadorLiberado                              |         |
+| **GET**  | /api/controleOperador/<span style="color:blue">:key</span> |         |
+| **POST** | /api/controleOperador                                      |         |
+

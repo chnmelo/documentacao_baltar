@@ -14,3 +14,12 @@
 | nomeFantasia   | string | Nome de indentificação do tanque |
 
 ## Requisições 
+
+| tipo       | path                                                  | retorno |
+| ---------- | ----------------------------------------------------- | ------- |
+| **GET**    | /api/modeloTanque                                     |         |
+| **GET**    | /api/modeloTanque/<span style="color:blue">:id</span> |         |
+| **POST**   | /api/modeloTanque                                     |         |
+| **PUT**    | /api/modeloTanque/<span style="color:blue">:id</span> |         |
+| **DELETE** | /api/modeloTanque/<span style="color:blue">:id</span> |         |
+

@@ -8,3 +8,9 @@
 | cod      | string | Codigo da Sub Prefeitura |
 
 ## Requisições 
+
+| tipo     | path               | retorno |
+| -------- | ------------------ | ------- |
+| **GET**  | /api/subPrefeitura |         |
+| **POST** | /api/subPrefeitura |         |
+

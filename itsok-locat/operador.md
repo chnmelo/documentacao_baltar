@@ -14,3 +14,7 @@
 
 ## Requisições
 
+| tipo     | path          | retorno |
+| -------- | ------------- | ------- |
+| **POST** | /api/operador |         |
+

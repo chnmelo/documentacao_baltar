@@ -12,5 +12,13 @@
 | telEmpresa   | string | Telefone de contato da empresa               |
 | nomeFantasia | string | Nome da empresa                              |
 
-## Atributos
+## Requisições
+
+| tipo       | path                                             | retorno |
+| ---------- | ------------------------------------------------ | ------- |
+| **GET**    | /api/empresa                                     |         |
+| **GET**    | /api/empresa/<span style="color:blue">:id</span> |         |
+| **POST**   | /api/empresa                                     |         |
+| **PUT**    | /api/empresa/<span style="color:blue">:id</span> |         |
+| **DELETE** | /api/empresa/<span style="color:blue">:id</span> |         |
 

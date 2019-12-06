@@ -13,3 +13,11 @@
 
 ## Requisições 
 
+| tipo       | path                                                | retorno |
+| ---------- | --------------------------------------------------- | ------- |
+| **GET**    | /api/fornecedor                                     |         |
+| **GET**    | /api/fornecedor/<span style="color:blue">:id</span> |         |
+| **POST**   | /api/fornecedor                                     |         |
+| **PUT**    | /api/fornecedor/<span style="color:blue">:id</span> |         |
+| **DELETE** | /api/fornecedor/<span style="color:blue">:id</span> |         |
+

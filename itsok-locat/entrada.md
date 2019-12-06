@@ -25,3 +25,15 @@
 
 ## Requisições 
 
+| tipo       | path                                                         | retorno |
+| ---------- | ------------------------------------------------------------ | ------- |
+| **GET**    | /api/entrada                                                 |         |
+| **GET**    | /api/entrada/notify                                          |         |
+| **GET**    | /api/entrada/<span style="color:blue">:id</span>             |         |
+| **POST**   | /api/entrada                                                 |         |
+| **POST**   | /api/entrada/justificar                                      |         |
+| **PUT**    | /api/entrada/<span style="color:blue">:id</span>             |         |
+| **DELETE** | /api/entrada/<span style="color:blue">:id</span>             |         |
+| **GET**    | /api/reviews/entrada/empresa/<span style="color:blue">:empresa</span>/<span style="color:blue">:data_inicial</span>/<span style="color:blue">:data_final</span> |         |
+| **GET**    | /api/reviews/entrada/postoAbastecimento/<span style="color:blue">:posto</span>/<span style="color:blue">:data_inicial</span>/<span style="color:blue">:data_final</span> |         |
+

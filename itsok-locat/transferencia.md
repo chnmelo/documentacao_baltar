@@ -21,3 +21,14 @@
 
 ## Requisições 
 
+| tipo       | path                                                         | retorno |
+| ---------- | ------------------------------------------------------------ | ------- |
+| **GET**    | /api/transferencia                                           |         |
+| **GET**    | /api/transferencia/notify                                    |         |
+| **GET**    | /api/transferencia/:id                                       |         |
+| **POST**   | /api/transferencia                                           |         |
+| **PUT**    | /api/transferencia/:id                                       |         |
+| **DELETE** | /api/transferencia/:id                                       |         |
+| **GET**    | /api/reviews/transferencia/empresa/<span style="color:blue">:empresa_id</span>/<span style="color:blue">:data_inicial</span>/<span style="color:blue">:data_final</span> |         |
+| **GET**    | /api/reviews/transferencia/postoAbastecimento/<span style="color:blue">:posto_id</span>/<span style="color:blue">:data_inicial</span>/<span style="color:blue">:data_final</span> |         |
+

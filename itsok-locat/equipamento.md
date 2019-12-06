@@ -22,3 +22,15 @@
 
 ## Requisições 
 
+| tipo       | path                                                         | retorno |
+| ---------- | ------------------------------------------------------------ | ------- |
+| **GET**    | /api/equipamento                                             |         |
+| **GET**    | /api/equipamentoLiberado                                     |         |
+| **GET**    | /api/equipamento/tags                                        |         |
+| **GET**    | /api/controleEquipamento                                     |         |
+| **GET**    | /api/equipamento/<span style="color:blue">:id</span>         |         |
+| **GET**    | /api/equipamento/placa/<span style="color:blue">:placa</span> |         |
+| **POST**   | /api/equipamento                                             |         |
+| **PUT**    | /api/equipamento/<span style="color:blue">:id</span>         |         |
+| **DELETE** | /api/equipamento/<span style="color:blue">:id</span>         |         |
+
